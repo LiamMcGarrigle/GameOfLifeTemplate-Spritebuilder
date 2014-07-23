@@ -23,8 +23,6 @@
 /* Begin PBXBuildFile section */
 		0529445D11098D6F00E500F3 /* CCProfiling.h in Headers */ = {isa = PBXBuildFile; fileRef = 0529445911098D6F00E500F3 /* CCProfiling.h */; };
 		0529445E11098D6F00E500F3 /* CCProfiling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0529445A11098D6F00E500F3 /* CCProfiling.m */; };
-		0CC69502197F3B6200AB96F5 /* CCBLocalizationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC69501197F3B6200AB96F5 /* CCBLocalizationManager.h */; };
-		0CC69504197F3BA300AB96F5 /* CCBLocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC69503197F3BA300AB96F5 /* CCBLocalizationManager.m */; };
 		2B192835163361B10049A044 /* CCClippingNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B192833163361B10049A044 /* CCClippingNode.h */; };
 		2B192836163361B10049A044 /* CCClippingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B192834163361B10049A044 /* CCClippingNode.m */; };
 		5015043B113300F900A9CA65 /* CCActionProgressTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 50150435113300F900A9CA65 /* CCActionProgressTimer.h */; };
@@ -334,8 +332,6 @@
 /* Begin PBXFileReference section */
 		0529445911098D6F00E500F3 /* CCProfiling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCProfiling.h; sourceTree = "<group>"; };
 		0529445A11098D6F00E500F3 /* CCProfiling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCProfiling.m; sourceTree = "<group>"; };
-		0CC69501197F3B6200AB96F5 /* CCBLocalizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCBLocalizationManager.h; path = "cocos2d-ui/CCBReader/CCBLocalizationManager.h"; sourceTree = "<group>"; };
-		0CC69503197F3BA300AB96F5 /* CCBLocalizationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCBLocalizationManager.m; path = "cocos2d-ui/CCBReader/CCBLocalizationManager.m"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -1151,8 +1147,6 @@
 				B78AE45A17E7AF1C0028BE0B /* CCButton.h */,
 				B78AE45B17E7AF1C0028BE0B /* CCButton.m */,
 				B79F905817FE2A2E00908504 /* CCTableView.h */,
-				0CC69501197F3B6200AB96F5 /* CCBLocalizationManager.h */,
-				0CC69503197F3BA300AB96F5 /* CCBLocalizationManager.m */,
 				B79F905917FE2A2E00908504 /* CCTableView.m */,
 				B78AE46017E7AF1C0028BE0B /* CCScrollView.h */,
 				B78AE46117E7AF1C0028BE0B /* CCScrollView.m */,
@@ -1328,7 +1322,6 @@
 				50305AF40E40E33200F63373 /* cocos2d.h in Headers */,
 				B7705FE81831A07B0043CC67 /* ALDevice.h in Headers */,
 				B7705FCD1831A07B0043CC67 /* OALAction+Private.h in Headers */,
-				0CC69502197F3B6200AB96F5 /* CCBLocalizationManager.h in Headers */,
 				501CCFB50E99657C00B86F68 /* TGAlib.h in Headers */,
 				D2B49104192146FB00C3443A /* CCEffectGaussianBlur.h in Headers */,
 				B7D2730D1822F4AA0054849B /* CCBAnimationManager.h in Headers */,
@@ -1611,7 +1604,6 @@
 				D33803E618032F390072D8FE /* CCPhysicsNode.m in Sources */,
 				E01E6D8D121F130E001A484F /* CCLabelBMFont.m in Sources */,
 				E0EAD100121F4B4600B0C81C /* CCDirectorIOS.m in Sources */,
-				0CC69504197F3BA300AB96F5 /* CCBLocalizationManager.m in Sources */,
 				E0EAD109121F4B4600B0C81C /* CCGLView.m in Sources */,
 				9D85671E191B018200573093 /* CCEffectBrightness.m in Sources */,
 				D272033418FC9A4700B100FF /* CCEffectGlow.m in Sources */,
